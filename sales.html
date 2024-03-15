@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/sales.css" />
+    <title>Sales</title>
+  </head>
+  <body>
+    <header>
+      <h1>Our Sales</h1>
+      <a href="index.html">Home</a>
+    </header>
+    <h2></h2>
+    <div id="display"></div>
+    <div id="display1"></div>
+    <form id="newLocation">
+      <fieldset>
+        <legend>Add New Location</legend>
+        <label for="locationName">Location Name:</label>
+        <input type="text" name="" id="locationName" />
+        <label for="minCust">Minimum Customers:</label>
+        <input type="number" name="" id="minCust" min="0" />
+        <label for="maxCust">Maximum Customers:</label>
+        <input type="number" name="" id="maxCust" min="0" />
+        <label for="avgCookies">Average Cookies:</label>
+        <input type="text" name="" id="avgCookies" />
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+    <script src="sales.js"></script>
+  </body>
+</html>
